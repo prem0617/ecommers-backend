@@ -28,7 +28,7 @@ app.use("/api/admin", salesRoute);
 app.use("/api/user", productsRoute);
 app.use("/api/user", orderRoute);
 app.get("/", (req, res) => {
-  res.json({ message: "Hello, World!" });
+  res.json({ message: "Hello, From Prem Patel!" });
 });
 
 app.listen(PORT, () => {
